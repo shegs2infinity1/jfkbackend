@@ -1,6 +1,7 @@
 # users/serializers.py
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
-from .models import UserProfile, Biodata, Order, CustomizationOption
+from .models import UserProfile, Biodata, Order, CustomizationOption,Measurement
+from django.contrib.auth.hashers import make_password
 # from .models import UserValidation
 from rest_framework import serializers
 
@@ -21,13 +22,13 @@ class BiodataSerializer(serializers.ModelSerializer):
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
     class Meta:
         model = UserProfile
-        fields = ['username', 'password',
-                  'role', 'firstname',
-                  'lastname', 'phonenumber', 'email']
+        fields = '__all__'
 
     def create(self, validated_data):
+        validated_data['password'] = make_password(password=validated_data['password'])
         user = UserProfile.objects.create(
 
             username=validated_data['username'],
@@ -36,8 +37,9 @@ class UserProfileSerializer(serializers.ModelSerializer):
             firstname=validated_data['firstname'],
             lastname=validated_data['lastname'],
             phonenumber=validated_data['phonenumber'],
-            email=validated_data['email']
-
+            email=validated_data['email'],
+            gender=validated_data['gender'],
+            birthdate=validated_data['birthdate'],
         )
         return user
 
@@ -51,5 +53,9 @@ class OrderSerializer(serializers.ModelSerializer):
     customization_options = CustomizationOptionSerializer(many=True, read_only=True)
     class Meta:
         model = Order
-        fields = ['id','client','order_date','status','customization_options','measurements', 'comments']
+        fields = '__all__'
 
+class MeasurementSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Measurement
+        fields = '__all__'

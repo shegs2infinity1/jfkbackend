@@ -4,42 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822a2426-0ee2-44d9-849e-8037a828e042" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BioData.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BioData/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BioData/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BioData/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BioData/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BioData/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0002_biodata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0003_userprofile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0004_alter_userprofile_username.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0005_userprofile_role.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0006_userprofile_email_userprofile_firstname_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0007_customizationoption_order_delete_customuser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/0008_alter_order_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biobio/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="822a2426-0ee2-44d9-849e-8037a828e042" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/biobio/migrations/0016_alter_order_status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioData/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioData/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biobio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/biobio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biobio/notification_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/biobio/notification_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biobio/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/biobio/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biobio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/biobio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biobio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/biobio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Django Server.BioData.executor": "Debug",
-    "Django Server.Django Debug.executor": "Run",
-    "Python.views.executor": "Debug",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Django Server.BioData.executor&quot;: &quot;Debug&quot;,
+    &quot;Django Server.Django Debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Django Server.Django Debug">
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BioData" />
@@ -185,8 +174,35 @@
       <workItem from="1726575833145" duration="16204000" />
       <workItem from="1726649818903" duration="667000" />
       <workItem from="1726652019971" duration="2068000" />
-      <workItem from="1726696567295" duration="20011000" />
+      <workItem from="1726696567295" duration="23145000" />
+      <workItem from="1726855413707" duration="1169000" />
+      <workItem from="1726909528308" duration="5701000" />
+      <workItem from="1727124596433" duration="1100000" />
+      <workItem from="1727132666744" duration="4330000" />
+      <workItem from="1727349340599" duration="7786000" />
+      <workItem from="1727601725240" duration="1359000" />
+      <workItem from="1727641239545" duration="3018000" />
+      <workItem from="1728133124251" duration="16846000" />
+      <workItem from="1728387897725" duration="7845000" />
+      <workItem from="1728579125088" duration="205000" />
+      <workItem from="1728638969933" duration="22045000" />
+      <workItem from="1729019753043" duration="12292000" />
+      <workItem from="1729243032789" duration="6253000" />
+      <workItem from="1729359272125" duration="1976000" />
+      <workItem from="1729500291666" duration="3570000" />
+      <workItem from="1729595497700" duration="10658000" />
+      <workItem from="1729769783372" duration="6097000" />
+      <workItem from="1730103782048" duration="10856000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <option name="closed" value="true" />
+      <created>1726753604505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726753604506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,51 +221,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>115</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>109</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>111</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>112</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>132</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/biobio/views.py</url>
-          <line>133</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
